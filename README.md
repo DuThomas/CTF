@@ -47,7 +47,7 @@ This is a tutorial to solve the third CTF challenge
 1. Check if the process succeed:
 
     ```bash
-    # Your current path shuold be /home/{unix_username}/14/d/d/d/d.../d
+    # Your current path should be /home/{unix_username}/14/d/d/d/d.../d
     echo "The maze has been created !" > /home/{unix_username}
     cat lnk
     ```
