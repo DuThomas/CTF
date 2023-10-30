@@ -48,7 +48,7 @@ This is a tutorial to solve the third CTF challenge
 
     ```bash
     # Your current path should be /home/{unix_username}/14/d/d/d/d.../d
-    echo "The maze has been created !" > /home/{unix_username}
+    echo "The maze has been created !" > /home/{unix_username}/txt.txt
     cat lnk
     ```
 
