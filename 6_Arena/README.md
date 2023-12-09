@@ -73,7 +73,7 @@
 1. In **Terminal 2** run gen_weapons with the previous address
 
     ```bash
-    bash bash gen_weapons 0x923f470
+    bash gen_weapons 0x923f470
     ```
 
 1. Then in **Terminal 1**:
