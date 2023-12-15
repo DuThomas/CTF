@@ -31,7 +31,7 @@
     fi
 
     hex_address="$1"
-    
+
     hex_address="${hex_address#0x}"
 
     hex_address=$(printf "%x\n" $((16#${hex_address} + 4)))
@@ -69,7 +69,12 @@
 
     You will get the following message containing an ***address***.
 
-    > Too many players... Kicking player '{name_of_the_player}' (0x923f470)
+    > Too many players... Kicking player '{name_of_the_player}' (0x923f470)  
+    Give me a name (23 chars max): Give me a punchline (8191 chars max): Choose a strategy (1: cunning, 2: dumb, 3: blind):
+
+    Then enter an invalide strategy or just press enter:
+
+    > Unknown strategy. Aborting...
 
 1. In **Terminal 2** run gen_weapons with the previous address
 
