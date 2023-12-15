@@ -31,6 +31,8 @@
     fi
 
     hex_address="$1"
+    
+    hex_address="${hex_address#0x}"
 
     hex_address=$(printf "%x\n" $((16#${hex_address} + 4)))
 
@@ -38,7 +40,6 @@
         hex_address="0${hex_address}"
     fi
 
-    hex_address="${hex_address#0x}"
 
     little_endian=""
     for ((i = ${#hex_address} - 2; i >= 0; i -= 2)); do
