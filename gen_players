@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# File name
+file="players"
+
+for i in {1..1250}
+do
+    echo "2" >> "$file" # Create a new player
+    printf "Player%d\n" "$i" >> "$file" # Name
+    printf "Punch%d\n" "$i" >> "$file" # Punchline
+    echo "1" >> "$file" # Strategy
+done
+
+echo "Task done $file"
