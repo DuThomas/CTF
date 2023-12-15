@@ -92,7 +92,7 @@
         1 weapons loaded!
         ```
 
-    1. Press 3 to start the fight. The figh migh end without popping the shell. In this case press 3 again to start the fight until the shell appear
+    1. Press 3 to start the fight. The figh might end without popping the shell. In this case press 3 again to start the fight until the shell appear
 
     Once you get the shell, you can cat the flag
 
