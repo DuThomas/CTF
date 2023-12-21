@@ -72,10 +72,10 @@
     4.1.1. In **Terminal 2** run the following command with the different port ranges:
 
     ```bash
-    nc -uv -w0 127.0.0.1 {port_range}
+    nc -uv -w 0 127.0.0.1 {port_range}
     ```
 
-    > Example: nc -uv -w0 127.0.0.1 1-10000
+    > Example: nc -uv -w 0 127.0.0.1 1-10000
 
     *Make sure that this command ends before "Too slow!" appears in **Terminal 1**. You can reduce the port ranges if needed.*
 
@@ -98,7 +98,7 @@
 
     ```bash
     nc -uv -w 0 127.0.0.1 {port1}
-    nc -uv -w0 127.0.0.1 {port_range}
+    nc -uv -w 0 127.0.0.1 {port_range}
     ```
 
     > Example:  
@@ -110,7 +110,7 @@
     ```bash
     nc -uv -w 0 127.0.0.1 {port1}
     nc -uv -w 0 127.0.0.1 {port2}
-    nc -uv -w0 127.0.0.1 {port_range}
+    nc -uv -w 0 127.0.0.1 {port_range}
     ```
 
     > Example:  
