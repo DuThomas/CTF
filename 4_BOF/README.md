@@ -68,5 +68,5 @@
 1. Once you get the root shell, you can cat the flag
 
     ```bash
-    cat arena/flag
+    cat flag
     ```
